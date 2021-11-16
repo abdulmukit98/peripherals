@@ -6,6 +6,9 @@ SoftwareSerial Bluetooth(8,9);    // 8- tx  9- rx
 /*
     Serial monitor 9600  baud
     both nl and clear
+    
+    +5V to en
+    while pressing hc05 butten then power to enter at+command mode
 */
  
 void setup() {
