@@ -1,25 +1,24 @@
 #include <SoftwareSerial.h>
-SoftwareSerial BT(8,9); // BT(Tx,Rx)
+SoftwareSerial blue(8,9); // BT(Tx,Rx)
 
-char Incoming_value = 0;                //Variable for storing Incoming_value
+char data;                //Variable for storing Incoming_value
 void setup() 
 {
-  BT.begin(38400);
+  blue.begin(9600);
   Serial.begin(9600);         //Sets the data rate in bits per second (baud) for serial data transmission
   pinMode(13, OUTPUT);        //Sets digital pin 13 as output pin
 }
 void loop()
 {
-  if(BT.available() > 0)  
+  if(blue.available() > 0)  
   {
-    Incoming_value = BT.read();      //Read the incoming data and store it into variable Incoming_value
-    Serial.print(Incoming_value);        //Print Value of Incoming_value in Serial monitor
+    data = blue.read();      //Read the incoming data and store it into variable Incoming_value
+    Serial.print(data);        //Print Value of Incoming_value in Serial monitor
     Serial.print("\n");        //New line 
-    if(Incoming_value == '1')            //Checks whether value of Incoming_value is equal to 1 
+    if(data == '1')            //Checks whether value of Incoming_value is equal to 1 
       digitalWrite(13, HIGH);  //If value is 1 then LED turns ON
-    else if(Incoming_value == '0')       //Checks whether value of Incoming_value is equal to 0
+    else if(data == '0')       //Checks whether value of Incoming_value is equal to 0
       digitalWrite(13, LOW);   //If value is 0 then LED turns OFF
   }                            
  
 }              
-
