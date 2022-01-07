@@ -18,6 +18,7 @@
         AT+ADDR
         
 *** Address
+
         M B1 - 21:13:ACF6
         X Hc-05  21:13:2B063
 
