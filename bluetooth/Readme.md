@@ -11,6 +11,7 @@ UUID
 
   
 ### Connect
+bluetoothSocket = **BluetoothDevice**.createRfcommSocketToServiceRecord(**UUID**);
 
     try {
             bluetoothSocket = hc05.createRfcommSocketToServiceRecord(bUUID);
