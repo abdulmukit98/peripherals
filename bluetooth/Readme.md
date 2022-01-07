@@ -1,13 +1,13 @@
 UUID
 
-  UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
+    UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
   
   
-  BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-  System.out.println(bluetoothAdapter.getBondedDevices());    <set of BluetoothDeevice>
+    BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+    System.out.println(bluetoothAdapter.getBondedDevices());    <set of BluetoothDeevice>
   
-  BluetoothDevice hc05 = bluetoothAdapter.getRemoteDevice("00:21:13:02:B0:63");
-  System.out.println(hc05.getName());
+    BluetoothDevice hc05 = bluetoothAdapter.getRemoteDevice("00:21:13:02:B0:63");
+    System.out.println(hc05.getName());
 
   
 ### Connect
