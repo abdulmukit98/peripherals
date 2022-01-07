@@ -15,4 +15,8 @@
         AT+NAME?
         AT+UART= 9600,0,0
         AT+ROLE = 0
+        AT+ADDR
+        
+        B1 - 21:13:ACF6
+
         
