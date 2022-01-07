@@ -30,3 +30,12 @@ UUID
             e.printStackTrace();
         }
   
+  ### send data
+  
+    OutputStream outputStream;
+    try {
+            outputStream = bluetoothSocket.getOutputStream();
+            outputStream.write((byte) '1');
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
