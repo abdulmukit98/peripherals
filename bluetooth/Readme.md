@@ -2,7 +2,8 @@ UUID
 
     UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
   
-  
+### initialize 
+
     BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
     System.out.println(bluetoothAdapter.getBondedDevices());    <set of BluetoothDeevice>
   
