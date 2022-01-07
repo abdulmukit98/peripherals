@@ -17,6 +17,8 @@
         AT+ROLE = 0
         AT+ADDR
         
-        B1 - 21:13:ACF6
+*** Address
+        M B1 - 21:13:ACF6
+        X Hc-05  21:13:2B063
 
         
