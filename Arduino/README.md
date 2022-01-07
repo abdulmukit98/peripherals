@@ -16,6 +16,7 @@
         AT+UART= 9600,0,0
         AT+ROLE = 0
         AT+ADDR
+        AT+PSWD
         
 *** Address
 
