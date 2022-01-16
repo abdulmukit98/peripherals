@@ -10,6 +10,8 @@
 ### kicad part
 
 ```
-pin header -->  conn_cc_rr
+pin header -->  conn_column_row
+foot print  Connector_pinheader
+            Connector_pinsocket
 
 ```
