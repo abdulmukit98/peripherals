@@ -10,7 +10,7 @@
 ### kicad part
 
 
-|ASF| ASFA|SAGWE |WETE5H|
+|Symbol type  | Name        |              | Footprint name      |
 |------------ |------------ |------------- |-------------------- |
 | pin header  |  conn_01_03 | foot print   | Connector_pinheader |
 |             |             |              |  Connector_pinsocket|
