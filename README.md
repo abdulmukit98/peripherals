@@ -9,9 +9,9 @@
 
 ### kicad part
 
-```
-pin header -->  conn_column_row
-foot print  Connector_pinheader
-            Connector_pinsocket
+----------------------------
+| | pin header|  conn_01_03 |
+|foot print   | Connector_pinheader |
+|             |  Connector_pinsocket|
 
-```
+
