@@ -10,6 +10,6 @@
 ### kicad part
 
 ```
-pin header -->  conn_cc__rr
+pin header -->  conn_cc_rr
 
 ```
