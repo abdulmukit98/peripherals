@@ -10,9 +10,9 @@
 ### kicad part
 
 
-|Symbol type  | Name        |              | Footprint name      |
+| symbol type | name        |              | footprint name      |
 |------------ |------------ |------------- |-------------------- |
 | pin header  |  conn_01_03 | foot print   | Connector_pinheader |
 |             |             |              |  Connector_pinsocket|
-
+| Battery     | battery holder|            |  2xAA              |
 
