@@ -16,7 +16,8 @@ Tool --> Board --> Boards manager --> esp8266  <br>
 ### config
 <br>
 
-| board name   |   processor                 | baud rate |  board |
-|--------------|-----------------------------|-----------|--------|
-| arduino nano | atmega328p (old bootloader) | 9600      |        |   
-| esp8266      |                             |  115200   | NodeMCU 1.0 (ESP-12E Module) |
+| board name   |   processor                  | baud rate |  
+|--------------|------------------------------|-----------|
+| arduino nano | atmega328p (old bootloader)  | 9600      |   
+| esp8266      | NodeMCU 1.0 (ESP-12E Module) |  115200   |
+| due          | arduin due (programming port)| 9600      | 
