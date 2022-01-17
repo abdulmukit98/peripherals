@@ -26,7 +26,7 @@ void setup() {
   Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
 }
 
-
+int n = 0;
 void loop() {
   
   /**
@@ -67,6 +67,16 @@ void loop() {
   
   // set bool value
   Firebase.setBool("truth", false);
+  
+  // set integer
+  Firebase.setInt("logs", n++);
+  
+  
+  // generate unique key  with push method
+  String key = Firebase.pushInt("logs", value);
+  
+  Serial.print("id: ")
+  Serial.println(key);
   
   
 }
