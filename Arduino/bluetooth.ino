@@ -1,5 +1,6 @@
 /**
  * for arduino due use Serial1, Serial2, Serial3  instead of SoftwareSerial
+ #define blue Serial1
  */
 #include <SoftwareSerial.h>
 SoftwareSerial blue(8,9); // BT(Tx,Rx)
