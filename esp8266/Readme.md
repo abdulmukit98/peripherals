@@ -23,3 +23,13 @@ builtin led D4    GPIO2
 | ArduinoJson     | 5.13.1          |
 
 
+* Code
+      - Firebase_Host: the website that appear on realtime database.
+      - Firebase_Auth: Project settings --> Service accounts --> Database secrets
+
+```
+#define FIREBASE_HOST "techshopju-default-rtdb.firebaseio.com"          
+#define FIREBASE_AUTH "uxzCFIynuAb3bsSY3tlnWf31u184BtmpazrnyJa0"        
+#define WIFI_SSID "Smart"
+#define WIFI_PASSWORD "menthokol"
+```
