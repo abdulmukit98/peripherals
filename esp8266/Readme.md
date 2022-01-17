@@ -13,9 +13,10 @@ builtin led D4    GPIO2
     * type "test.firebaseio.com"
     * Documents --> Arduino --> libraries --> firebase-arduino-master --> src --> FirebaseHttpClient.h
     * replace with updated fingerprint
-* 
+* Install AdruinoJson library by Benoit Blanchon version 5.13.1
 
-| | |
+|a |a |
+|b|b|
 |-- |--- |
 | | |
 
