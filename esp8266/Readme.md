@@ -15,9 +15,11 @@ builtin led D4    GPIO2
     * replace with updated fingerprint
 * Install AdruinoJson library by Benoit Blanchon version 5.13.1
 
-|a |a |
-|b|b|
-|-- |--- |
-| | |
+
+|library          |         version |
+|-----------      |---------------- |
+|Esp8266 board    | 2.7.4           |
+| FirebaseAndroid | old version     |
+| ArduinoJson     | 5.13.1          |
 
 
