@@ -22,10 +22,12 @@ builtin led D4    GPIO2
 | FirebaseAndroid | old version     |
 | ArduinoJson     | 5.13.1          |
 
+<br><br>
+
 
 * Code
-      - Firebase_Host: the website that appear on realtime database.
-      - Firebase_Auth: Project settings --> Service accounts --> Database secrets
+    - Firebase_Host: the website that appear on realtime database.
+    - Firebase_Auth: Project settings --> Service accounts --> Database secrets
 
 ```
 #define FIREBASE_HOST "techshopju-default-rtdb.firebaseio.com"          
