@@ -1,3 +1,6 @@
+/**
+ * for arduino due use Serial1, Serial2, Serial3  instead of SoftwareSerial
+ */
 #include <SoftwareSerial.h>
 SoftwareSerial blue(8,9); // BT(Tx,Rx)
 
