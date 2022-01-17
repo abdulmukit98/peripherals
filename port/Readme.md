@@ -1,5 +1,10 @@
+### driver
+```
+device manager --> view --> show hidden device
+```
+
 ### config
-<br><br>
+<br>
 
 | board name   |   processor                 | baud rate |
 |--------------|-----------------------------|-----------|
