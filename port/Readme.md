@@ -9,6 +9,7 @@ File --> Preference -->
         https://arduino.esp8266.com/stable/package_esp8266com_index.json 
 
 Tool --> Board --> Boards manager --> esp8266  <br>
+version 2.7.4
 
 ```
 
