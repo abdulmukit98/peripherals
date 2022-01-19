@@ -45,3 +45,39 @@ bluetoothSocket = **BluetoothDevice**.createRfcommSocketToServiceRecord(**UUID**
     //
     String cmd
     outputStream.write(cmd.getBytes());
+    
+    
+
+### receive data
+* use a background thread to scan for data 
+* in the run() function 
+
+```
+InputStream inputStream;
+/**
+ *  Continuously scan for data while device is connected.
+ */
+while(socket.isConnected())
+{
+    try
+    {
+        inputStram = socket.getInputStream();
+        byte[] buffer = new byte[1024];
+        if(inputStream.available() > 0)
+        {
+            inputStream.read(buffer);       // store data in buffer
+            int i = 0;                      // global i
+            for(i = 0; i < buffer.length && buffer[i] != 0; i++)
+            {
+            }
+            String message = new String(buffer, 0, i);
+            System.out.println(message);
+        }
+        sleep(500);
+    }
+    catch ()
+    {
+    }
+}
+```
+
