@@ -43,4 +43,5 @@ bluetoothSocket = **BluetoothDevice**.createRfcommSocketToServiceRecord(**UUID**
         }
 
     //
-    outputStream.write(new String("command").getBytes());
+    String cmd
+    outputStream.write(cmd.getBytes());
