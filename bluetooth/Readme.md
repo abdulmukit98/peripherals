@@ -50,7 +50,7 @@ bluetoothSocket = **BluetoothDevice**.createRfcommSocketToServiceRecord(**UUID**
 
 ### receive data
 * use a background thread to scan for data 
-* in the run() function 
+* in the run() method 
 
 ```
 InputStream inputStream;
