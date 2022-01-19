@@ -42,4 +42,5 @@ bluetoothSocket = **BluetoothDevice**.createRfcommSocketToServiceRecord(**UUID**
             e.printStackTrace();
         }
 
-outputStream.write(new String("command").getBytes());
+    //
+    outputStream.write(new String("command").getBytes());
