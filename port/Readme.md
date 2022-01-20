@@ -17,8 +17,10 @@ version 2.7.4
 ### config
 <br>
 
-| board name   |   processor                  | baud rate |  
-|--------------|------------------------------|-----------|
-| arduino nano | atmega328p (old bootloader)  | 9600      |   
-| esp8266      | NodeMCU 1.0 (ESP-12E Module) |  115200   |
-| due          | arduin due (programming port)| 9600      | 
+| board name   |   processor                  | baud rate | port on linux  | 
+|--------------|------------------------------|-----------|----------------|
+| arduino nano | atmega328p (old bootloader)  | 9600      | dev/ttyUSB0    |
+| esp8266      | NodeMCU 1.0 (ESP-12E Module) |  115200   | dev/ttyUSB0    |
+| due          | arduin due (programming port)| 9600      | dev/ttyACM0    |
+
+        dev/ttyAMA0 is linux default port
