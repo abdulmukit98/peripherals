@@ -21,6 +21,6 @@ version 2.7.4
 |--------------|------------------------------|-----------|----------------|
 | arduino nano | atmega328p (old bootloader)  | 9600      | dev/ttyUSB0    |
 | esp8266      | NodeMCU 1.0 (ESP-12E Module) |  115200   | dev/ttyUSB0    |
-| due          | arduin due (programming port)| 9600      | dev/ttyACM0    |
+| due          | arduin due (programming port)| 9600      | **dev/ttyACM0**|
 
         dev/ttyAMA0 is linux default port
