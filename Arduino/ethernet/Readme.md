@@ -1,8 +1,11 @@
 ### pin
 Ethernet Shield use 
-* pin 10, 11, 12, 13 to connect
-* pin 4 for sd card
+* **pin 10, 11, 12, 13** to connect
+* **pin 4** for sd card
 * we cannot use them for general IO
+
+<br>
+<br>
 
 ```
 #include<SPI.h>
