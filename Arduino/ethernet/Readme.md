@@ -56,6 +56,7 @@ void loop() {
                     client.println("HTTP/1.1 200 OK");
                     client.println("Connection-Type: text/html");
                     client.println("Connection: close");
+                    client.println("Refresh: 5");
                     client.println();
                      
                     client.println("<!DOCTYPE html>");
@@ -68,6 +69,12 @@ void loop() {
                     
                     client.println("<a href = \" btnon-on  \" > <button> Button on </button> </a>");
                     client.println("<a href = \" btnoff-off \" > <button> Button off </button> </a> ");
+                    
+                    client.print("<p> Analog Read A0 = ");
+                    int sensor = analogRead(A0);
+                    client.print(sensor);
+                    client.println(" </p> <br>");
+
                     
                     client.println("</body>");
                     client.println("</html>");
@@ -90,6 +97,7 @@ void loop() {
 
 }
 ```
+<br><br>
 
 ### refresh page
 
@@ -102,13 +110,5 @@ client.println();
                      
 ```
 
-### sensor read
-
-```
-client.print("<p> Analog Read A0 = ");
-int sensor = analogRead(A0);
-client.print(sensor);
-client.println(" </p> <br>");
-```
 
 
