@@ -19,7 +19,7 @@ builtin led D4    GPIO2
 |library          |         version |
 |-----------      |---------------- |
 |Esp8266 board    | 2.7.4           |
-| FirebaseAndroid | old version     |
+| FirebaseArduino | old version     |
 | ArduinoJson     | 5.13.1          |
 
 <br><br>
