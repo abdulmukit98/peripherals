@@ -79,7 +79,7 @@ void loop() {
                     
                     client.println("</body>");
                     client.println("</html>");
-                    client.println("");
+                    client.println();
 
                     delay(1);
                     client.stop();
