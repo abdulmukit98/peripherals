@@ -90,3 +90,25 @@ void loop() {
 
 }
 ```
+
+### refresh page
+
+```
+client.println("HTTP/1.1 200 OK");
+client.println("Connection-Type: text/html");
+client.println("Connection: close");
+client.println("Refresh: 5");
+client.println();
+                     
+```
+
+### sensor read
+
+```
+client.print("<p> Analog Read A0 = ");
+int sensor = analogRead(A0);
+client.print(sensor);
+client.println(" </p> <br>");
+```
+
+
