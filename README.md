@@ -15,4 +15,4 @@
 | pin header  |  conn_01_03       | Connector_pinheader |
 |             |                   |  Connector_pinsocket|
 | Battery     | battery holder    | 2xAA              |
-
+| barrel jack | BarrelJack Mountingpin | connector_barrelJack Horizontal | 
