@@ -18,3 +18,4 @@
 | barrel jack | BarrelJack Mountingpin | connector_barrelJack Horizontal | 
 | Screw terminal | | Terminal block bornier | 
 | push button | SW_push           | sw push 12mm        |
+| resistor    |                   | 9mm             |
