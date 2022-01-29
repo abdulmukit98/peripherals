@@ -19,4 +19,4 @@
 | Screw terminal | | Terminal block bornier | 
 | push button | SW_push           | sw push 12mm        |
 | resistor    |                   | 9mm             |
-| capacitor  |     radial         | D12.5 5mm    |
+| capacitor  |     radial         | D12.5_5mm    |
