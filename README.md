@@ -20,3 +20,8 @@
 | push button | SW_push           | sw push 12mm        |
 | resistor    |                   | 9mm             |
 | capacitor  |     radial         | D12.5_5mm    |
+
+
+### ut33b fuse
+315mA 250V
+
