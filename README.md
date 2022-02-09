@@ -23,5 +23,5 @@
 
 
 ### ut33b fuse
-315mA 250V  <br>
+315mA 250V  5x20 mm<br>
 
