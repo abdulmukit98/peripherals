@@ -21,7 +21,7 @@
 | resistor    |                   | 9mm             |
 | capacitor  |     radial         | D12.5_5mm    |
 
-<br><br>
+ <br>
  Track | Width 
  -------|------
  Tack1  | 0.1524 mm
