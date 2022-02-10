@@ -21,7 +21,7 @@
 | resistor    |                   | 9mm             |
 | capacitor  |     radial         | D12.5_5mm    |
 
- <br>
+ <br><br>
  Track | Width 
  -------|------
  Tack1  | 0.1524 mm
@@ -29,8 +29,8 @@
  Tack3  | 0.381 mm
  Tack4  | 0.508 mm
  Tack5  | 0.8128 mm 
-<br>  
 
+<br><br>  
 Via     |  Diameter  |  Drill
 --------|------------|-----------
 Via1    | 0.4826 mm  | 0.3302 mm
