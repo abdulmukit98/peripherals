@@ -22,18 +22,17 @@
 | capacitor  |     radial         | D12.5_5mm    |
 
 <br><br>
- Serial | Width 
+ Track | Width 
  -------|------
  Tack1  | 0.1524 mm
  Tack2  | 0.254 mm
  Tack3  | 0.381 mm
  Tack4  | 0.508 mm
- Tack5  | 0.8128 mm
- 
- <br> 
- 
- Vias   |  Diameter  |  Drill
---------|------------|-------
+ Tack5  | 0.8128 mm 
+<br>  
+
+Via     |  Diameter  |  Drill
+--------|------------|-----------
 Via1    | 0.4826 mm  | 0.3302 mm
 Via2    | 0.5 mm     | 0.4 mm
 Via3    | 1.905 mm   | 0.254 mm
