@@ -19,7 +19,7 @@
 | Screw terminal | | Terminal block bornier | 
 | push button | SW_push           | sw push 12mm        |
 | resistor    | R_Axial_xx        | L6.3mm, P 7.62/10.16|
-|   .25W      | vertical           | L6.3mm, P 2.54/5.08 |
+|             | ver              | L6.3mm, P 2.54/5.08 |
 | capacitor  |     radial         | D12.5_5mm    |
 |led small   |  led               | led tht: led_d5.0mm |
 <br>
