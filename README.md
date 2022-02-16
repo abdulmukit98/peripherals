@@ -20,6 +20,7 @@
 | push button | SW_push           | sw push 12mm        |
 | resistor    |                   | 9mm             |
 | capacitor  |     radial         | D12.5_5mm    |
+|led small   |  led               | led tht: led_d3_0mm |
 <br>
  
  Track | Width 
