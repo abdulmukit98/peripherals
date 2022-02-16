@@ -42,9 +42,8 @@ Via3    | 1.905 mm   | 0.254 mm
 Resistor, Horizontal, Vertical
 * 9mm - 0.5 watt
 * 6.3mm - 0.25 watt
-* 5.5mm
+* 5.5mm (**mine**)
 * 3.6mm - 0.125 watt
-
 
 | l (body)  | d (diameter) | P (hole distance) |
 |---------  |-------       |----------------- 
