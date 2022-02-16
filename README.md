@@ -47,7 +47,7 @@ Resistor, Horizontal, Vertical
 * 9mm - 0.5 watt
 
 
-### ut33b fuse
-315mA 250V  5x20 mm<br>
+### ut33b fuse 
+F315mA 250V  5x20 mm<br>
 
  
