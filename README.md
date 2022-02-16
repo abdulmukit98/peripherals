@@ -18,7 +18,8 @@
 | barrel jack | BarrelJack Mountingpin | connector_barrelJack Horizontal | 
 | Screw terminal | | Terminal block bornier | 
 | push button | SW_push           | sw push 12mm        |
-| resistor    |                   | 9mm             |
+| resistor    | R_Axial_xx        | L6.3mm, P 7.62/10.16|
+|   .25W      | vertical           | L6.3mm, P 2.54/5.08 |
 | capacitor  |     radial         | D12.5_5mm    |
 |led small   |  led               | led tht: led_d5.0mm |
 <br>
@@ -42,14 +43,7 @@ Via3    | 1.905 mm   | 0.254 mm
 Resistor, Horizontal, Vertical
 * 9mm - 0.5 watt
 * 6.3mm - 0.25 watt
-* 5.5mm (**mine**)
 * 3.6mm - 0.125 watt
-
-| l (body)  | d (diameter) | P (hole distance) |
-|---------  |-------       |----------------- 
-|           | 7.62        |
-|           | 10.16        |
-|           | 15.24         |
 
 
 ### ut33b fuse
