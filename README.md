@@ -20,8 +20,9 @@
 | push button | SW_push           | sw push 12mm        |
 | resistor    | R_Axial_xx        | L6.3mm, P 7.62/10.16|
 |             | ver              | L6.3mm, P 2.54/5.08 |
-| capacitor  |     radial         | D12.5_5mm    |
-|led small   |  led               | led tht: led_d5.0mm |
+| capacitor  |     radial         | D12.5_5mm              |
+|led small   |  led               | led tht: led_d5.0mm    |
+|LDR         |  10x8 / 5.1x4.3   |  **OptoDevice**: R_LDR_ |
 <br>
  
  Track | Width 
@@ -41,9 +42,9 @@ Via3    | 1.905 mm   | 0.254 mm
 <br>
 
 Resistor, Horizontal, Vertical
-* 9mm - 0.5 watt
-* 6.3mm - 0.25 watt
 * 3.6mm - 0.125 watt
+* 6.3mm - 0.25 watt
+* 9mm - 0.5 watt
 
 
 ### ut33b fuse
