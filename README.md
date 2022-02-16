@@ -39,12 +39,14 @@ Via2    | 0.5 mm     | 0.4 mm
 Via3    | 1.905 mm   | 0.254 mm
 <br>
 
+Resistor, Horizontal, Vertical
+| l (body)  | d (diameter) | P (hole distance) |
+|---------  |-------       |----------------- 
+|           | 7.62        |
+|           | 10.16        |
+|           | 15.24         |
 
-|Register   | length
-|---------  |-------
-|Horizontal | 7.62
-|           | 10.16
-|           | 15.24
+
 ### ut33b fuse
 315mA 250V  5x20 mm<br>
 
