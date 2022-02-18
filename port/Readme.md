@@ -25,3 +25,7 @@ version 2.7.4
 | uno          |                                  | 9600      | dev/ttyACM (Arduino Uno) |     
 
         dev/ttyAMA0 is linux default port
+
+### ch340 driver
+* [exe](https://github.com/abdulmukit98/peripherals/blob/main/port/CH341SER.EXE)
+* [zip](https://github.com/abdulmukit98/peripherals/blob/main/port/CH341SER.ZIP)
