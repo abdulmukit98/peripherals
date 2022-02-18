@@ -23,6 +23,7 @@
 | capacitor  |     radial         | D12.5_5mm              |
 |led small   |  led               | led tht: led_d5.0mm    |
 |LDR         |  10x8 / 5.1x4.3   |  **OptoDevice**: R_LDR_ |
+|MountingHole|                   | 3.2mm_M3_Pad            |
 <br>
  
  Track | Width 
