@@ -24,6 +24,7 @@ version 2.7.4
 | due          | arduin due (programming port)    | 9600      | **dev/ttyACM0**|
 | uno          |                                  | 9600      | dev/ttyACM (Arduino Uno) |     
 
+
 **dev/ttyAMA0 ** is **linux** default port
 
 ### ch340 driver
