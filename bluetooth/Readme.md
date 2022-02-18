@@ -83,7 +83,7 @@ while(socket.isConnected())
 
 ### Turn on bluetooth
 ```
-while(!bluetootheAdapter.isEnabled())
+if(!bluetootheAdapter.isEnabled())
 {
     Intent intent = new Intent(bluetoothAdapter.ACTION_REQUEST_ENABLE);
     startActivityForResult(intent, 1);
