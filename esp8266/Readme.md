@@ -33,5 +33,5 @@ builtin led D4    GPIO2
 #define FIREBASE_HOST "techshopju-default-rtdb.firebaseio.com"          
 #define FIREBASE_AUTH "uxzCFIynuAb3bsSY3tlnWf31u184BtmpazrnyJa0"        
 #define WIFI_SSID "Smart"
-#define WIFI_PASSWORD "menthokol"
+#define WIFI_PASSWORD "********"
 ```
