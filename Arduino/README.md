@@ -1,3 +1,5 @@
+![atmega](https://github.com/abdulmukit98/peripherals/blob/main/images/atmega328-pinout.png)
+
 
     SoftwareSerial BT(8,9); // BT(Tx,Rx)
     hc05 TX = 8
