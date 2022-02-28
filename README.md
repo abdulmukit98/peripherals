@@ -53,4 +53,5 @@ Resistor, Horizontal, Vertical
 ### ut33b fuse 
 F315mA 250V  5x20 mm<br>
 
+![jumper length](https://github.com/abdulmukit98/peripherals/blob/main/images/Jumper-wire-set-2nd-image.jpg)[width = 5cm]
  
