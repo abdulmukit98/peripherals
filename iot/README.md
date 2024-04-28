@@ -11,5 +11,8 @@
   SCL = D1
 ```
 
+### Schematic
+![image](https://github.com/abdulmukit98/peripherals/assets/56398175/83a38066-77c1-403b-997e-aafd5b8e5d99)
+
 ### Sheet ID
 https://docs.google.com/spreadsheets/d/1_ATYY3FSlU6p7odbd41BdvhgOptil8Kv9Bdvdm0CFz0/edit?pli=1#gid=0
