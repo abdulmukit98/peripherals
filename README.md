@@ -1,13 +1,14 @@
 ### peripheral
-    [openHAB] Please use the following commands to launch openHAB on a system restart.
-                sudo /bin/systemctl daemon-reload
-                sudo /bin/systemctl enable openhab.service
 
-    [openHAB] You can start openhab2 manually by executing the command:
-                sudo /bin/systemctl start openhab.service
+````
+[openHAB] Please use the following commands to launch openHAB on a system restart.
+        sudo /bin/systemctl daemon-reload
+        sudo /bin/systemctl enable openhab.service
 
-    sudo /bin/systemctl status openhab.service 
-
+[openHAB] You can start openHAB manually by executing the command:
+        sudo /bin/systemctl start openhab.service
+    
+````
 
 ### kicad part
 
