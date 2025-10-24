@@ -2,6 +2,6 @@
 
 ````
 # Test if MQTT broker is running
-mosquitto_sub -h localhost -t "device/led" -v
 
+mosquitto_sub -h localhost -t "device/led" -v
 ````
