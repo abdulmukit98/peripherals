@@ -19,3 +19,11 @@ mosquitto_pub -h test.mosquitto.org -t "device/led" -m "1"
 mosquitto_pub -h 192.168.1.100 -t "device/led/state" -m "ON"
 
 ````
+
+### port 1884
+````
+sudo ss -tlnp | grep 1883
+sudo kill -9 19797
+sudo systemctl restart mosquitto
+sudo systemctl status mosquitto
+````
