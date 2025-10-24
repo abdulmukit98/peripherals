@@ -10,7 +10,7 @@ mosquitto_sub -h localhost -t "device/led" -v
 ### Mosquitto pub
 ````
 # From OpenHAB to NodeMCU
-mosquitto_pub -h 192.168.1.100 -t "device/led" -m "1"
+mosquitto_pub -h 192.168.1.100 -p 1884 -t "device/led" -m "1"
 mosquitto_pub -h localhost -t "device/led" -m "1"
 mosquitto_pub -h test.mosquitto.org -t "device/led" -m "1"
 
