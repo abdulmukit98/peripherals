@@ -29,6 +29,12 @@ sudo systemctl status mosquitto
 ````
 
 ### ffmpeg
+
 ````
 mjpg_streamer -i "input_uvc.so -d /dev/video0 -r 640x480 -f 30" -o "output_http.so -p 8081 -w ./www"
+````
+
+view at
+````
+http://192.168.0.7:8081/?action=stream
 ````
