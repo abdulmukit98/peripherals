@@ -38,3 +38,17 @@ view at
 ````
 http://192.168.0.7:8081/?action=stream
 ````
+
+### Rule 
+Add Trigger
+````
+0/1 * 0-23 * * ?
+0/5 * 8-9 * * ?
+````
+Breakdown:
+Field	Meaning
+
+* 0/5	Every 5 seconds
+* \*	Every minute
+* 8-9	Hours 08 and 09
+* \* \* ?	Any day, any month, any weekday
