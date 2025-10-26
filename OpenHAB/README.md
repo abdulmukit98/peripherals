@@ -57,4 +57,8 @@ Field	Meaning
 ````
 # Create a virtual environment (any directory you like)
 python3 -m venv ~/openhab-ml-env
+
+
+# Activate it
+source ~/openhab-ml-env/bin/activate
 ````
