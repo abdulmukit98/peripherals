@@ -64,4 +64,7 @@ source ~/openhab-ml-env/bin/activate
 
 run script
 ~/openhab-ml-env/bin/python /home/openhab/ml_mqtt_control.py
+
+# Deactivate venv
+deactivate
 ````
