@@ -52,3 +52,9 @@ Field	Meaning
 * \*	Every minute
 * 8-9	Hours 08 and 09
 * \* \* ?	Any day, any month, any weekday
+
+### venv
+````
+# Create a virtual environment (any directory you like)
+python3 -m venv ~/openhab-ml-env
+````
