@@ -61,4 +61,7 @@ python3 -m venv ~/openhab-ml-env
 
 # Activate it
 source ~/openhab-ml-env/bin/activate
+
+run script
+~/openhab-ml-env/bin/python /home/openhab/ml_mqtt_control.py
 ````
