@@ -76,3 +76,9 @@ grep "SmartLight" /var/log/openhab/events.log > switch_log.txt
 convert log file to csv format
 awk '/Generic_MQTT_Thing_Light/{print $1" "$2","$NF}' switch_log.txt > switch_data.csv
 ````
+
+### Start Arduino
+````
+cd Downloads/
+./arduino-ide_2.3.6_Linux_64bit.AppImage --no-sandbox
+````
