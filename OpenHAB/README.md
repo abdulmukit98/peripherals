@@ -107,4 +107,24 @@ add channel topic device/led
 set value 0 1
 create item linking the channel
 
+
+7. Mosquitto only listen to localhost fix
+
+goto
+C:\Program Files\mosquitto\mosquitto.conf
+
+Add this line
+    listener 1883
+    allow_anonymous true
+
+8. Add Generic MQTT thing UID to client in NodeMCU code
+        
+if (client.connect("mqtt:topic:616a0f5e1e:Thing2")) {
+      Serial.println("connected");
+      
+      // Subscribe to the topic
+      client.subscribe(mqtt_topic);
+      Serial.print("Subscribed to: ");
+      Serial.println(mqtt_topic);   
+  }
 ```
