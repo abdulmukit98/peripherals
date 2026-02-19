@@ -6,8 +6,8 @@ const char* ssid = "Smart";
 const char* password = "menthokol";
 
 // MQTT broker details
-//const char* mqtt_server = "192.168.0.7"; // OpenHAB server IP
-const char* mqtt_server = "test.mosquitto.org"; // OpenHAB server IP 
+const char* mqtt_server = "192.168.0.7"; // OpenHAB server IP
+// const char* mqtt_server = "test.mosquitto.org"; // OpenHAB server IP 
 const int mqtt_port = 1883;
 const char* mqtt_topic = "device/led";
 const int ledPin = LED_BUILTIN;  // GPIO2 on most NodeMCU boards
@@ -40,8 +40,8 @@ void reconnect() {
         Serial.print("Attempting MQTT connection...");
         
         // Attempt to connect
-        // You can change "NodeMCUClient" to any unique client ID NodeMCUClient
-        if (client.connect("nodemcu1")) {
+        // Set client UID to Generic MQTT thing UID
+        if (client.connect("mqtt:topic:616a0f5e1e:Thing2")) {
             Serial.println("connected");
             
             // Subscribe to the topic
