@@ -82,3 +82,29 @@ awk '/Generic_MQTT_Thing_Light/{print $1" "$2","$NF}' switch_log.txt > switch_da
 cd Downloads/
 ./arduino-ide_2.3.6_Linux_64bit.AppImage --no-sandbox
 ````
+
+## Openhab setup
+```
+1. Add on store => MQTT binding
+
+2. Setting => Thing => + => MQTT binding => MQTT Broker
+Broker Hostname = 127.0.0.1
+port = 1883
+
+3. Install mosquitto on windows. 
+Add mosquitto directory to system environment variable
+
+4. check port 1883 is working
+netstat -an | Select-String 1883
+
+5. mosquitto command line
+mosquitto_sub -h localhost -t device/led
+mosquitto_pub -h localhost -t test/topic -m "hello"
+
+6. Create generic mqtt thing 
+Link the Broker
+add channel topic device/led
+set value 0 1
+create item linking the channel
+
+```
