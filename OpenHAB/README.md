@@ -126,4 +126,11 @@ if (client.connect("mqtt:topic:616a0f5e1e:Thing2")) {
       Serial.print("Subscribed to: ");
       Serial.println(mqtt_topic);   
   }
+
 ```
+
+### Temperature
+Add Metadata => State Description 
+````
+Temp: %.2f °C
+````
