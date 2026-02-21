@@ -1,0 +1,9 @@
+1. install ffmpeg from https://www.ffmpeg.org/download.html, add path tp environment variable
+
+2. # List all available video devices
+ffmpeg -list_devices true -f dshow -i dummy
+
+3. # Replace "Your Camera Name" with what you found above
+ffplay -f dshow -i video="HD User Facing"
+
+4. 
