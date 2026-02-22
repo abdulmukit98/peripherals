@@ -8,7 +8,9 @@ def generate():
     while True:
         success, frame = camera.read()
         if not success:
-            break
+            continue    
+
+        frame = cv2.flip(frame, 1)
 
         ret, buffer = cv2.imencode('.jpg', frame)
         frame = buffer.tobytes()
@@ -21,6 +23,7 @@ def generate():
 def video_feed():
     return Response(generate(), 
             mimetype='multipart/x-mixed-replace; boundary=frame')
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8081)
