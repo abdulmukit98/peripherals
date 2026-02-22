@@ -127,6 +127,11 @@ if (client.connect("mqtt:topic:616a0f5e1e:Thing2")) {
       Serial.println(mqtt_topic);   
   }
 
+9. Create a new channel under generic mqtt thing for reading sensor data that are published from ESP8266
+
+10. Modify Pages (Overview page) to show sensor items in the dashboard.
+
+11. In temparature item (type number) add custom metadata and state description to modify it
 ```
 
 ### Temperature
