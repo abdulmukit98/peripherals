@@ -140,5 +140,7 @@ Add Metadata => State Description
 Temp: %.2f °C
 ````
 ### IR Signal
+```
 0x0x3D00FF OFF
 0x0x3D807F Mute
+```
