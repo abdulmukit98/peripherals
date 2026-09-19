@@ -157,3 +157,11 @@ slots:
                     url: =items[props.item + "_MJPEG_URL"].state
 ````
 
+<br>
+<br>
+<br>
+http://localhost:8080/ipcamera/425ac0bdb8/ipcamera.jpg
+<br>
+http://localhost:8080/ipcamera/425ac0bdb8/ipcamera.mjpeg
+<br>
+<br>
