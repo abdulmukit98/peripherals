@@ -160,8 +160,8 @@ slots:
 <br>
 <br>
 <br>
-http://localhost:8080/ipcamera/425ac0bdb8/ipcamera.jpg
+http://localhost:8080/ipcamera/112486/ipcamera.jpg
 <br>
-http://localhost:8080/ipcamera/425ac0bdb8/ipcamera.mjpeg
+http://localhost:8080/ipcamera/112486/ipcamera.mjpeg
 <br>
 <br>
